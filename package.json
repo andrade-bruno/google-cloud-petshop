@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+		"start": "node ./api/index.js",
     "eslint": "./node_modules/.bin/eslint .",
     "eslint:fix": "yarn eslint --fix"
   },
