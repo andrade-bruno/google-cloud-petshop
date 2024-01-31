@@ -8,7 +8,6 @@ describe('Fornecedor', () => {
 				email: 'pethome@email.com',
 				categoria: 'alimentos'
 			})
-			console.log({fornecedor})
 
 			expect(fornecedor.validar()).toBe(true)
 		})
