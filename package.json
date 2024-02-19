@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node ./api/index.js",
-    "eslint": "./node_modules/.bin/eslint .",
-    "eslint:fix": "yarn eslint --fix",
+    "lint": "./node_modules/.bin/eslint .",
+    "lint:fix": "yarn eslint --fix",
     "test": "./node_modules/.bin/jest"
   },
   "keywords": [],
