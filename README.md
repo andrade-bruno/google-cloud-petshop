@@ -10,6 +10,11 @@ This petshot market includes some features as
 - Google Cloud Compute Engine
 - Specific environment configuration
 
+### Useful links
+
+- Course: https://cursos.alura.com.br/course/nodejs-adicionando-ci-projeto-deploy-google-cloud
+- Documentation: https://documenter.getpostman.com/view/20665234/2sA2r82Pd2
+
 ### Keywords
 
 - Continuous Integration
@@ -19,8 +24,3 @@ This petshot market includes some features as
 - Jest
 - Mocks
 - Git Hub Actions
-
-### Useful links
-
-- Course: https://cursos.alura.com.br/course/nodejs-adicionando-ci-projeto-deploy-google-cloud
-- Documentation: https://documenter.getpostman.com/view/20665234/2sA2r82Pd2
