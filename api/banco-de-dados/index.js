@@ -1,14 +1,14 @@
 const Sequelize = require('sequelize')
-const config = require('config')
+const parameters = require('../../config/parameters')
 
 const instancia = new Sequelize(
-  config.get('mysql.banco-de-dados'),
-  config.get('mysql.usuario'),
-  config.get('mysql.senha'),
-  {
-    host: config.get('mysql.host'),
-    dialect: 'mysql'
-  }
+	parameters.database.DB_NAME,
+	parameters.database.DB_USER,
+	parameters.database.DB_PASSWORD,
+	{
+		dialect: 'mysql',
+		host: parameters.database.DB_HOST,
+	}
 )
 
 module.exports = instancia
