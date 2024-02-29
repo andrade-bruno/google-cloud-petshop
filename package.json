@@ -6,6 +6,7 @@
   "scripts": {
     "start": "node ./api/index.js",
     "start:debug": "node --inspect ./api/index.js",
+    "migration": "node ./api/banco-de-dados/criarTabelas.js",
     "lint": "./node_modules/.bin/eslint .",
     "lint:fix": "yarn eslint --fix",
     "test": "./node_modules/.bin/jest"
