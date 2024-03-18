@@ -1,13 +1,13 @@
 const mocks = {
-	fornecedor: {
-		categoria: "alimentos",
-		dataAtualizacao: "10/01/2000",
-		dataCriacao: "10/01/2000",
-		email: "pethome@email.com",
-		empresa: "Pethome",
-		id: 1,
-		versao: 90,
-	}
+  fornecedor: {
+    categoria: 'alimentos',
+    dataAtualizacao: '10/01/2000',
+    dataCriacao: '10/01/2000',
+    email: 'pethome@email.com',
+    empresa: 'Pethome',
+    id: 1,
+    versao: 90
+  }
 }
 
 module.exports = {
@@ -22,5 +22,5 @@ module.exports = {
   },
   async atualizar (id, dadosParaAtualizar) {},
   async remover (id) {},
-	mocks
+  mocks
 }

@@ -72,7 +72,7 @@ class Fornecedor {
       }
     })
 
-		return true
+    return true
   }
 }
 
