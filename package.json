@@ -4,11 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node ./api/index.js",
-    "start:debug": "node --inspect ./api/index.js",
+    "start:prd": "node ./api/index.js",
+    "start": "nodemon ./api/index.js",
+    "start:debug": "nodemon --inspect ./api/index.js",
     "migration": "node ./api/banco-de-dados/criarTabelas.js",
     "lint": "./node_modules/.bin/eslint .",
-    "lint:fix": "yarn eslint --fix",
     "test": "./node_modules/.bin/jest"
   },
   "keywords": [],
@@ -29,6 +29,7 @@
     "eslint-config-standard": "^17.1.0",
     "eslint-plugin-import": "^2.25.2",
     "eslint-plugin-n": "^15.0.0",
-    "eslint-plugin-promise": "^6.1.1"
+    "eslint-plugin-promise": "^6.1.1",
+    "nodemon": "^3.1.0"
   }
 }
